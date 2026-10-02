@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+tmp/
+CODEX_ACADEMIC_WEBSITE_INSTRUCTIONS.md
+Profile_3mb.jpg
+Felipe_Espinosa_Curriculum Vitae.pdf

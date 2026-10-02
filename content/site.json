@@ -1,0 +1,31 @@
+{
+  "name": "Felipe Espinosa",
+  "publicationName": "José Felipe Espinosa Orjuela",
+  "role": "AI Research Engineer",
+  "location": "Paris, France",
+  "url": "https://pipe1213.github.io",
+  "description": "AI research engineer working on deep learning, resource-efficient AI, robot learning, world models, multimodal learning, and agentic systems.",
+  "updated": "2026-10-02",
+  "links": [
+    { "label": "Email", "url": "mailto:felipeespinosa.13@outlook.com" },
+    { "label": "CV", "url": "files/Felipe_Espinosa_CV.pdf" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=wWZDxU8AAAAJ&hl=en" },
+    { "label": "GitHub", "url": "https://github.com/Pipe1213" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/felipe-espinosa13" }
+  ],
+  "about": [
+    "I am an AI research engineer based in Paris with a background in electronic engineering and a Master's degree in Artificial Intelligence from Université Paris-Saclay. My current research interests are resource-efficient machine learning, robot learning, world models, multimodal learning, and agentic AI.",
+    "My recent work spans deep learning for under-resourced speech synthesis, agent-based systems for structured-data analysis, and mobile robotics. I am particularly interested in how increasingly capable learning-based models can be made practical for deployment on resource-constrained robotic platforms."
+  ],
+  "vision": "My long-term research goal is to develop learning-based systems that can operate effectively on real robotic platforms. I am particularly interested in how model design, adaptive computation, and efficient representations can preserve task performance while reducing the memory, latency, and energy requirements of deployed AI systems.",
+  "news": [
+    { "date": "2026", "datetime": "2026", "text": "CLSE: Cross-Linguistic Evidence from Sublexical Embeddings is under review." },
+    { "date": "Aug. 2025", "datetime": "2025-08", "text": "Presented our paper on Walloon speech synthesis at SSW13 in Leeuwarden, Netherlands.", "link": { "label": "Paper", "url": "https://doi.org/10.21437/SSW.2025-29" } },
+    { "date": "Feb. 2025", "datetime": "2025-02", "text": "Presented a poster on Walloon text-to-speech synthesis at LT4All, UNESCO Headquarters, Paris." }
+  ],
+  "education": [
+    { "school": "Université Paris-Saclay", "degree": "M.Sc. in Computer Science — Artificial Intelligence", "dates": "2023–2025", "note": "Mention Très Bien" },
+    { "school": "Universidad Industrial de Santander", "degree": "B.Sc. in Electronic Engineering", "dates": "2010–2016", "note": "Academic exchange — University of São Paulo, 2014" }
+  ],
+  "teaching": "Through UIS's PAMRA academic-support program, I completed approximately 400 hours of individual and group mathematics and physics tutoring for university students, including sessions with more than 50 students. I also prepared exercises and class materials aligned with university course programs in coordination with other tutors and the program coordinator."
+}

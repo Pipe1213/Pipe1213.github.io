@@ -1,0 +1,12 @@
+{
+  "name": "felipe-espinosa-research",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Felipe Espinosa's academic research homepage",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Speech synthesis for Walloon, an under-resourced minority language",
+    "authors": ["José Felipe Espinosa Orjuela", "Philippe Boula de Mareüil", "Marc Evrard"],
+    "venue": "13th Speech Synthesis Workshop (SSW13), 2025",
+    "note": "First author",
+    "description": "A study of grapheme- and phoneme-based VITS systems for low-resource Walloon speech synthesis, including transfer learning from French and evaluation with native speakers.",
+    "links": [
+      { "label": "Paper", "url": "https://doi.org/10.21437/SSW.2025-29" },
+      { "label": "Code and models", "url": "https://github.com/lisn-speech-synthesis/Walloon-Synthesis-VITS" }
+    ]
+  },
+  {
+    "title": "CLSE: Cross-Linguistic Evidence from Sublexical Embeddings",
+    "authors": ["José Felipe Espinosa Orjuela", "E. Payares", "E. Puertas", "J. C. Martinez-Santos", "P. Boula de Mareüil"],
+    "venue": "Manuscript under review, 2026",
+    "description": "Investigates the structure preserved in phoneme-, syllable-, and word-level embedding spaces across Spanish, English, and French using probing, clustering, and representational-similarity analyses.",
+    "links": []
+  },
+  {
+    "title": "PETER: Phonestheme Encoder from Transformer Embedding Representation",
+    "authors": ["E. Payares", "José Felipe Espinosa Orjuela", "E. Puertas", "J. C. Martinez-Santos"],
+    "venue": "Manuscript in preparation, 2026",
+    "description": "A multilingual Transformer-based encoder combining phonestheme tokens with word-level semantic and positional information.",
+    "links": []
+  },
+  {
+    "title": "Sistema de acionamento do freio de um carro autônomo",
+    "authors": ["José Felipe Espinosa Orjuela", "R. M. Pinto", "J. L. Saavedra Guerra", "M. Becker"],
+    "venue": "22nd SIICUSP, University of São Paulo, 2014",
+    "earlier": true,
+    "links": [{ "label": "Official record", "url": "https://repositorio.usp.br/item/002728111" }]
+  },
+  {
+    "title": "Controle da propulsão e o esterçamento de um Rover aplicado à agricultura de precisão",
+    "authors": ["J. L. Saavedra Guerra", "José Felipe Espinosa Orjuela", "O. E. Rueda Sánchez", "M. Becker"],
+    "venue": "22nd SIICUSP, University of São Paulo, 2014",
+    "earlier": true,
+    "links": [{ "label": "Official record", "url": "https://repositorio.usp.br/item/002728621" }]
+  }
+]
