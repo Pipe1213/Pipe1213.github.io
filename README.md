@@ -13,6 +13,7 @@ The homepage is generated as plain HTML and CSS. Node.js 20 or newer is the only
 - `scripts/build.mjs`: HTML template and build.
 - `docs/assets/profile.webp`: optimized portrait.
 - `docs/files/Felipe_Espinosa_CV.pdf`: downloadable CV.
+- `docs/files/cfm.pdf`: downloadable CFM internship report.
 
 After editing content or styles:
 
@@ -23,7 +24,7 @@ npm start
 
 Preview at http://127.0.0.1:4173. Commit both the source edits and generated `docs/` files. GitHub Pages publishes the `docs` folder from `main`; no external services or runtime JavaScript are required.
 
-Keep manuscript statuses explicit. Do not add links for unpublished work unless a public URL exists. The CFM internship report is intentionally omitted pending confirmation that it should be linked publicly.
+Keep manuscript statuses explicit. Do not add links for unpublished work unless a public URL exists. The CFM project links to the supplied internship report at https://pipe1213.github.io/files/cfm.pdf.
 
 ## GitHub Pages setup
 

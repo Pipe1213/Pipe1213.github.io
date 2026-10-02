@@ -15,7 +15,7 @@
     "date": "2025",
     "description": "Developed an analyst-facing system that translated natural-language questions into executable SQL for internal financial-data analysis. The agent determined which information and tools were needed before SQL generation, narrowing the database context through schema retrieval and table relationships instead of passing the full database description to the model.",
     "result": "The system reached 87.5% end-to-end accuracy on a 48-question internal benchmark, while hybrid table retrieval reached 95% top-k accuracy.",
-    "links": []
+    "links": [{ "label": "Internship report", "url": "files/cfm.pdf", "download": true }]
   },
   {
     "title": "Semi-Autonomous Rover for Precision Agriculture",

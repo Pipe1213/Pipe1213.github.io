@@ -7,7 +7,7 @@ const read = async (file) => JSON.parse(await readFile(path.join(root, 'content'
 const [site, publications, projects] = await Promise.all(['site.json', 'publications.json', 'projects.json'].map(read));
 const updatedLabel = new Intl.DateTimeFormat('en', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(site.updated));
 const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const link = ({ url, label }) => `<a href="${escape(url)}"${url.startsWith('https://') ? ' target="_blank" rel="noopener noreferrer"' : ''}>${escape(label)}</a>`;
+const link = ({ url, label, download = false }) => `<a href="${escape(url)}"${url.startsWith('https://') ? ' target="_blank" rel="noopener noreferrer"' : ''}${download ? ' download' : ''}>${escape(label)}</a>`;
 const links = (items) => items?.length ? `<div class="entry-links">${items.map(link).join('<span aria-hidden="true"> / </span>')}</div>` : '';
 const authors = (items) => items.map((name) => name === site.publicationName ? `<strong>${escape(name)}</strong>` : escape(name)).join(', ');
 const publication = (item, earlier = false) => `<article class="publication${earlier ? ' compact' : ''}">
